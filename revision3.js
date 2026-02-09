@@ -13,6 +13,6 @@ function finalScore (omr) {
     }      
 }
 
-const input = { right: 80, wrong: 20, skip: 0 }
+const input = { right: 80, wrong: 10, skip: 10 }
 const result = finalScore(input)
 console.log(result);
